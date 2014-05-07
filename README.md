@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a simple FFMPEG / VIDEOJS based on-the-fly transcoding service with pseudostreaming support
 
 The VideoJS player object is hacked a bit to support pseudostreaming.
@@ -12,3 +13,7 @@ go/martini:
 * start go run server/server.go
 * navigate to http://0.0.0.0:3000
 
+python/flask
+
+* start ./start.sh
+* navigate to http://localhost:8123
