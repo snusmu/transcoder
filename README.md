@@ -1,7 +1,7 @@
-This is a simple PYTHON / FLASK / FFMPEG / VIDEOJS based on-the-fly transcoding service with pseudostreaming support
+This is a simple RUBY / SINATRA / FFMPEG / VIDEOJS based on-the-fly transcoding service with pseudostreaming support
 
 The VideoJS player object is hacked a bit to support pseudostreaming.
 
-* start ./start.sh
-* navigate to http://localhost:8123
+* start ruby server/server.rb
+* navigate to http://localhost:4567
 * play and seek
