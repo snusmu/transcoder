@@ -10,7 +10,7 @@
 	</video>
 	<script>
 		var video= videojs('video');
-		video.src("media/testavi.avi.ogv");
+		video.src("media/test.avi.ogv");
 		
 		// hack duration
 		video.duration= function() { return video.theDuration; };
@@ -25,12 +25,12 @@
 			console.log(time)
 			video.start= time;
 			video.oldCurrentTime(0);
-			video.src("media/testavi.avi.ogv?start=" + time);
+			video.src("media/test.avi.ogv?start=" + time);
 			video.play();
 			return this;
 		};
 	
-		$.getJSON( "media/testavi.avi.js", function( data ) 
+		$.getJSON( "media/test.avi.js", function( data ) 
 		{
 			video.theDuration= data.duration;
 		});
